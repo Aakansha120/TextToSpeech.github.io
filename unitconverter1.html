@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="unitconveter1.css" />
+  </head>
+  <body>
+    <div id="content-container">
+      <h2>Length Converter</h2>
+      <div class="inputContainer">
+        <div>
+          <label for="feet">Feet</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="feet"
+            oninput="convertToOthers('feet',this.value)"
+          />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+          <label for="meter">Meter</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="meter"
+            oninput="convertToOthers('meter',this.value)"
+          />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+          <label for="inches">Inches</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="inches"
+            oninput="convertToOthers('inches',this.value)"
+          />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+          <label for="cm">Centimeter</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="cm"
+            oninput="convertToOthers('cm',this.value)"
+          />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+        <label for="yard">Yard</label>        
+        </div>
+        <div>
+        <input
+          type="number"
+          name=""
+          id="yard"
+          oninput="convertToOthers('yard',this.value)"
+        />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+          <label for="km">Kilometer</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="km"
+            oninput="convertToOthers('km',this.value)"
+          />
+        </div>
+      </div>
+      <div class="inputContainer">
+        <div>
+          <label for="mile">Mile</label>
+        </div>
+        <div>
+          <input
+            type="number"
+            name=""
+            id="mile"
+            oninput="convertToOthers('mile',this.value)"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="Unitconverter1.js"></script>
+  </body>
+</html>
